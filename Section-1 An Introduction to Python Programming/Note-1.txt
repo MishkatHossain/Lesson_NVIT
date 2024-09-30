@@ -1,0 +1,9 @@
+Section 1: An introduction to programming to python programming
+
+What is programming?
+Purpose of Programming
+Programming Languages
+Compilers & Interpreters
+Introduction to Python with it's feature
+Environment Setup
+Executing Python from Command Line
