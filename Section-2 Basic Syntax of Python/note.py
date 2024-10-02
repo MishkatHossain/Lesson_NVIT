@@ -66,14 +66,17 @@ a = "LLM" #truthy value
 a = " " #truthy
 # any non zero 
 # any non empty data structure
-# any non string data structure
+# any non string data
 
 
 # Falsy considerating
-b = False
-b = 0
-b = 0.0000
-b = ""
+b = False #falsy value
+b = 0 #falsy value
+b = 0.0000 #falsy value
+b = "" #falsy value
+# any empty data structure
+# any empty string
+
 
 #python identifier
 # identifiers are used for identification of variables, functions, classes, modules, objects
