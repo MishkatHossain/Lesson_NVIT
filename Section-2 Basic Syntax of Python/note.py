@@ -83,7 +83,7 @@ b = "" #falsy value
 
 # Rules for python identifier declaration
 # (a-z,A-Z,0-9, _)
-# must start with letter. Also _
+# must start with letter. Can Also _
 # Can not start with digit
 # case sensitive. mishkat & MISHKAT & Mishkat & MishkaT & misHKat all are different
 
