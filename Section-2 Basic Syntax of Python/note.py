@@ -88,16 +88,50 @@ b = "" #falsy value
 # case sensitive. mishkat & MISHKAT & Mishkat & MishkaT & misHKat all are different
 
 # Operators
-# + , - , * , /, % 
-#  not, and, or
-# assignment operator = 
+# =, + , - , * , /, % 
+
+x = 10 #assigning value
+x = 12 + 13 # add
+print(x)
+y = 12 - 2 # minus
+print(y)
+a = 12
+b = 3
+t = a - b + a + a + b + b
+print(t)
+
+v1 = 12 * 12 #multiplication
+print(v1)
+
+v2 = 22 / 2 #divide
+print(v2)
+
+# parentheses
+pp = (12 - 13) + 23 + 1 + 0 + (9-10) 
+
+print(pp)
+
 # comparision operator ==, !=, >, >=, <, <=,
+w = 90
+u = 90
+
+print(w==u) #True
+u = 89
+print(w==u) #False
+
+x = 12
+y = 20
+
+print(x<y) #True
+print(x>y) #False
 
 
 
+print
 
 
 
+#  not, and, or
 
 
 
