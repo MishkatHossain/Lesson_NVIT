@@ -122,6 +122,10 @@ print(w==u) #False
 x = 12
 y = 20
 
+print(x != y) #True
+print(x == y) #False
+print(x==12) #True
+
 print(x<y) #True
 print(x>y) #False
 
