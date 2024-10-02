@@ -87,6 +87,11 @@ b = "" #falsy value
 # Can not start with digit
 # case sensitive. mishkat & MISHKAT & Mishkat & MishkaT & misHKat all are different
 
+# Operators
+# + , - , * , /, % 
+#  not, and, or
+# assignment operator = 
+# comparision operator ==, !=, >, >=, <, <=,
 
 
 
@@ -104,9 +109,6 @@ b = "" #falsy value
 
 
 
-
-#output in console
-print('1')
 
 
 
