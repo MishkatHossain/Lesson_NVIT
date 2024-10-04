@@ -27,6 +27,19 @@ a = 12
 c = 13677
 b = a
 
+# Python reserved words
+
+# and       del       from      None      True
+# as        elif      global    nonlocal  try
+# assert    else      if        not       while
+# break     except    import    or        with
+# class     False     in        pass      yield
+# continue  finally   is        raise     async
+# def       for       lambda    return    await
+
+
+
+
 # Data types. For now [string, number, boolean]
 # Python is dynamically typed. You don't have to specify data type
 # String/Text types
@@ -164,32 +177,3 @@ print(mikasa)
 # Comments Uncomments
 # Comments Uncomments
 
-
-# String Manipulation: "Anything that is enclosed in a double quotation mark is string"
-# Strings are immutable. They cannot be changed
-Max = "Mahito Warlord"
-print(Max[0]) #M
-print(Max[4]) #t
-print(Max[1]) #a
-print(Max[20]) #invalid 
-print(Max[16]) #invalid
-print(len(Max)) #15
-
-
-print(Max[1])
-Max[2] = "H" #invalid
-
-print(Max.upper()) #output: MAHITO WARLORD
-print(Max.lower()) #output: mahito warlord 
-
-#strip() #removing leading spaces
-text = "     M K L M M M     "
-print(text.strip())
-
-#replace(old, new): Replaces a substring with another.
-sentence = "Hello World"
-print(sentence.replace("World", "Python"))  # Output: Hello Python
-
-# find(substring): Returns the lowest index of the substring if it is found, otherwise -1.
-sentence = "Hello World"
-print(sentence.find("World"))  # Output: 6
