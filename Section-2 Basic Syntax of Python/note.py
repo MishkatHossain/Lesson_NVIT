@@ -4,9 +4,7 @@ print('Hello World')
 
 
 # Python Terminal/ Python Console. Training. Doesn't look visual but for beginner output.
-
 # python sequence of work flow and alignment. 
-
 # print: output function, to show output
 
 print("This is line one") 
@@ -31,7 +29,6 @@ b = a
 
 # Data types. For now [string, number, boolean]
 # Python is dynamically typed. You don't have to specify data type
-
 # String/Text types
 
 x = "This is text line string"
@@ -115,39 +112,84 @@ print(pp)
 w = 90
 u = 90
 
-print(w==u) #True
+# == equal
+print(w==u) #True  
 u = 89
-print(w==u) #False
+print(w==u) #False  
 
 x = 12
 y = 20
 
+# not equals
 print(x != y) #True
 print(x == y) #False
-print(x==12) #True
+print(x == 12) #True
 
+# less than
 print(x<y) #True
+
+# greater than
 print(x>y) #False
 
 
+b = 12
+d = 12
 
-print
+print(b<=d) #will print True 
+print(d<=d) #will print True 
+print(b<=12) #will print True 
+
+# not, and, or
+#  True and False will be False
+#  True or False will be True
+#  Not True will be false
+#  Not False will be True
+
+a = 9 
+b = 12 
+c = 12
+d = 9
+
+value = a < b and c < 90  #True and True
+print(value)  #True
+
+v = a>b or c>d
+print(v) #True
+
+mikasa = True and c>=12
+print(mikasa)
+
+# Comments Uncomments
+# Comments Uncomments
+# Comments Uncomments
+# Comments Uncomments
 
 
-
-#  not, and, or
-
-
-
-
-
-
-
-
-
+# String Manipulation: "Anything that is enclosed in a double quotation mark is string"
+# Strings are immutable. They cannot be changed
+Max = "Mahito Warlord"
+print(Max[0]) #M
+print(Max[4]) #t
+print(Max[1]) #a
+print(Max[20]) #invalid 
+print(Max[16]) #invalid
+print(len(Max)) #15
 
 
+print(Max[1])
+Max[2] = "H" #invalid
 
+print(Max.upper()) #output: MAHITO WARLORD
+print(Max.lower()) #output: mahito warlord 
 
+#strip() #removing leading spaces
+text = "     M K L M M M     "
+print(text.strip())
 
+#replace(old, new): Replaces a substring with another.
+sentence = "Hello World"
+print(sentence.replace("World", "Python"))  # Output: Hello Python
 
+# find(substring): Returns the lowest index of the substring if it is found, otherwise -1.
+sentence = "Hello World"
+print(sentence.find("World"))  # Output: 6
