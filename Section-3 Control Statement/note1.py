@@ -74,7 +74,7 @@ for i in range(5):
 
 for i in range(6): #pass does nothing. used for future code
     if x > 10:
-        pass  # Placeholder for future code
+        pass  # Just pass. Placeholder for future code
 
 
 
