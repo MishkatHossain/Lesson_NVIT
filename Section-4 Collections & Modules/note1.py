@@ -14,7 +14,15 @@ print(random)
 for item in random:
     print(f'This is {item}')
 
-#  Modify
+# enumerate()
+# Returns an iterator that generates index-element pairs.
+
+k = ['milk', 'fruit', 'charity', 'wise']
+for index, value in enumerate(k):
+    print(f"Index: {index}, Value: {value}")    
+
+
+# Modify
 random[1] = "USSR"
 
 # Slicing  List [start:end] 
