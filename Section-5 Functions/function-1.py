@@ -60,3 +60,81 @@ def fun():
 # print(v)  will show error
 
 
+# Passing Collection to a function [List, dictionary, sets]
+
+p = [1,2,3,4,5]
+
+def printer(p):
+    for i in p:
+        print(f'{i}, ')
+
+printer(p)
+
+
+map = {
+    'id' : '1212',
+    'name' : 'Mishkat',
+    'age' : '31',
+    'hero' : 'Batman',
+    'number' : '01795549398'
+}
+
+
+
+def display(map):
+    for key, value in map.items():
+        print(f"{key}: {value}")
+display(map)
+
+
+def show_info(name, age, city):
+    print(f"Name: {name}, Age: {age}, City: {city}")
+
+person = {
+    "name": "Slytherine", 
+    "age": 30, 
+    "city": "New York"
+}
+
+# Unpacking the dictionary into keyword arguments
+show_info(**person)
+
+
+# passing function to a function
+
+# Define two simple functions
+def add(a, b):
+    return a + b
+
+def mul(a, b):
+    return a * b
+
+# A higher-order function that takes another function as an argument
+def operate(fun, x, y):
+    result = fun(x, y)
+    print(f"Result: {result}")
+
+# Passing the 'add' function as an argument
+operate(add, 5, 3)       # Output: Result: 8
+
+# Passing the 'mul' function as an argument
+operate(mul, 5, 3)  # Output: Result: 15
+
+# When operate(add, 5, 3) is called, the function add is 
+# passed to operate as the func argument, and it is executed 
+# inside operate.The same goes for multiply.
+
+
+# A higher-order function
+def op(func, x, y):
+    result = func(x, y)
+    print(f"Result: {result}")
+
+# Passing a lambda function to op
+op(lambda a, b: a - b, 10, 5)   # Output: Result: 5
+
+# Instead of defining a separate function (like add or multiply), 
+# we used an inline lambda function (lambda a, b: a - b), which 
+# subtracts b from a. Lambda functions are useful when you want 
+# to pass a small piece of functionality without defining a separate function.
+
